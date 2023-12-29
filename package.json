@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "Blog app with CRUD operations",
   "main": "server.js",
-  "engines": {
-    "node": "16.13.0"
-  },
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm start\" \"npm run client\""
   },
   "author": "AMAN KUMAR SAINI",
   "license": "ISC",
